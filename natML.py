@@ -927,6 +927,7 @@ def draw_hexplot(RGB_image, cluster_img, n_clusters, figsize_wanted = (15, 10)):
     axs[1, 2].imshow(cluster_img, alpha=0.3)
     axs[1, 2].set_title('RGB image with clusters')
 
+
 def draw_likelihood_hexplot(image, image_euclidean, image_cosine, image_KL, contour_data, n_clusters, X_r = 0.6, Y_r = 1, n_r = 4):
     fig, axs = plt.subplots(2, 3, figsize=(15, 10))
     
