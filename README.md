@@ -1,6 +1,6 @@
 # Nat-ML: Image Analysis and Clustering Toolkit
 
-![Disease likelyhood example](./images/untitled.png)
+![Disease likelyhood example](./images/Untitled.png)
 
 
 ## Overview
