@@ -1,5 +1,8 @@
 # Nat-ML: Image Analysis and Clustering Toolkit
 
+![Disease likelyhood example](./images/untitled.png)
+
+
 ## Overview
 This project provides a suite of tools for image analysis, focusing on clustering techniques to analyze and interpret distributions within images. It leverages machine learning, statistical methods, and image processing libraries to extract meaningful insights from image data. The toolkit includes functionality for preprocessing images, generating features through neighborhood averaging, creating composite images, and applying clustering algorithms to segment images based on various features.
 
@@ -9,6 +12,8 @@ This project provides a suite of tools for image analysis, focusing on clusterin
 - **Clustering**: Apply KMeans clustering to segment images based on the generated features, supported by metrics to evaluate clustering quality.
 - **Statistical Analysis**: Functions to calculate likelihoods using Euclidean distances, cosine similarity, and KL divergence among distributions.
 - **Visualization**: Tools for visualizing the original images, the effects of preprocessing, and the results of clustering.
+
+
 
 ## Dependencies
 - Python 3.x
@@ -22,11 +27,8 @@ This project provides a suite of tools for image analysis, focusing on clusterin
 - [SciPy](https://www.scipy.org/)
 - [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/)
 
-## Installation
-To use this toolkit, ensure you have Python 3.x installed on your system. Then, install the required dependencies using pip:
-
-## Usage
-Below is a brief overview of how to use the core functionality in this toolkit. For detailed examples and documentation, refer to the [Wiki](https://github.com/your-repository/wiki).
+### Installation
+To use this toolkit, ensure you have Python 3.x installed on your system. Then, install the required dependencies using pip
 
 ## Contributing
 We welcome contributions to this project! Please contact me for details on how to submit contributions.
