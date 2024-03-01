@@ -271,10 +271,8 @@ def plot_alteredarray(original_array, altered_array):
 
 def get_Healthy_vs_Disease_npArrays(training_nparray_labels, test_dev_nparray_labels, n_Classifiers, Healthy_labels = [5, 6], Disease_labels = [0, 3, 4]):
     # Assuming definitions of your variables and n_Classifiers somewhere above this code
-    Healthy_labels = [5, 6]
     Healthy_training_nparray_labels = np.array([])
     Healthy_test_dev_nparray_labels = np.array([])
-    Disease_labels = [0, 3, 4]
     Disease_training_nparray_labels = np.array([])
     Disease_test_dev_nparray_labels = np.array([])
 
