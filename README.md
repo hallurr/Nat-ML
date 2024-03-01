@@ -2,7 +2,6 @@
 
 ![Disease likelyhood example](./images/Untitled.png)
 
-
 ## Overview
 This project provides a suite of tools for image analysis, focusing on clustering techniques to analyze and interpret distributions within images. It leverages machine learning, statistical methods, and image processing libraries to extract meaningful insights from image data. The toolkit includes functionality for preprocessing images, generating features through neighborhood averaging, creating composite images, and applying clustering algorithms to segment images based on various features.
 
@@ -12,8 +11,6 @@ This project provides a suite of tools for image analysis, focusing on clusterin
 - **Clustering**: Apply KMeans clustering to segment images based on the generated features, supported by metrics to evaluate clustering quality.
 - **Statistical Analysis**: Functions to calculate likelihoods using Euclidean distances, cosine similarity, and KL divergence among distributions.
 - **Visualization**: Tools for visualizing the original images, the effects of preprocessing, and the results of clustering.
-
-
 
 ## Dependencies
 - Python 3.x
@@ -104,6 +101,5 @@ interactive_plot = interactive(plot_contours, ...)
 
 ## Conclusion
 Summarize the findings from your clustering analysis and provide recommendations for further analysis or application of these techniques.
-
 
 Have fun!

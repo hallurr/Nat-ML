@@ -76,13 +76,12 @@ docs/_build/
 target/
 
 # Images and pickles
-*.png
 *.jpg
 *.jpeg
 *.gif
 *.svg
-*.pkl
 
+old/
 # Jupyter Notebook
 .ipynb_checkpoints
 
